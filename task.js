@@ -15,7 +15,7 @@ function findNearestFactorial(value) {
   for (let i = 1; currentValue * i <= value; i++) {
     currentValue *= i;
   }
-  return currentValue - 1;
+  return currentValue;
 }
 
 form.addEventListener('keyup', evt => {
